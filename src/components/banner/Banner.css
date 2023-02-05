@@ -1,12 +1,13 @@
 .banner {
     margin-top: 0;
     padding: 260px 0 100px 0;
-    background-image: url('./assets/img/banner-bg.png');
+    /*background-image: url('../../assets/img/banner-bg.jpg');*/
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .banner .tagline {
+    font-family: 'Montserrat-Medium', sans-serif !important;
     width: calc(100% - 30px);
     border: 30px solid #a70364;
     border-left: 5px solid #a70364;
@@ -42,27 +43,6 @@
     letter-spacing: 0.8px;
     line-height: 1.5em;
     width: 96%;
-}
-.banner button {
-    color: #fff;
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 60px;
-    letter-spacing: 0.8px;
-    display: flex;
-    align-items: center;
-}
-.banner button svg {
-    font-size: 25px;
-    margin-left: 10px;
-    transition: 0.3s ease-in-out;
-    line-height: 1;
-}
-.banner button:hover svg {
-    margin-left: 25px;
-}
-.banner img {
-    animation: updown 3s linear infinite;
 }
 @keyframes updown {
     0% {
@@ -100,7 +80,7 @@
     border-right: 0.08em solid #666;
 }
 
-h1.cyberpunk:before {
+h1.cyberpunk-text:before {
     content: "";
     display: block;
     position: absolute;
@@ -110,7 +90,7 @@ h1.cyberpunk:before {
     height: 10px;
 }
 
-h1.cyberpunk.glitched {
+h1.cyberpunk-text.glitched {
     animation-name: h1glitched;
     animation-duration: calc(0.9s * 1.4);
     animation-iteration-count: infinite;
@@ -147,7 +127,7 @@ h1.cyberpunk.glitched {
     }
 }
 
-h1.cyberpunk.glitched:before {
+h1.cyberpunk-text.glitched:before {
     animation-name: h1beforeglitched;
     animation-duration: calc(0.9s * 2);
     animation-iteration-count: infinite;
@@ -192,7 +172,7 @@ h1.cyberpunk.glitched:before {
     }
 }
 
-h1.cyberpunk:after {
+h1.cyberpunk-text:after {
     content: "_";
     animation-name: hxafter;
     animation-duration: 0.9s;

@@ -1,0 +1,47 @@
+.about {
+    margin-top: 0;
+    padding: 80px 0 100px 0;
+    /*background-image: url('../../assets/img/banner-bg.jpg');*/
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-image-container {
+    filter: drop-shadow(8px 5px 6px #04a8ec70);
+}
+img.cyberpunk-image {
+    border: 30px solid #E8018A;
+    border-left: 5px solid #E8018A;
+    border-right: 5px solid #E8018A;
+    border-bottom: 15px solid #E8018A;
+    clip-path: polygon(0px 25px, 26px 0px, calc(60% - 25px) 0px, 60% 25px, 100% 25px, 100% calc(100% - 10px), calc(100% - 15px) calc(100% - 10px), calc(80% - 10px)  calc(100% - 10px), calc(80% - 15px) calc(100% - 0px), 10px  calc(100% - 0px), 0% calc(100% - 10px));
+    background-color: #E8018A;
+    box-shadow:  #04a8ec70 0 5px 6px;
+}
+
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.about-info h1, h3 {
+    font-family: 'Cyberwar-light', sans-serif !important;
+    color: #E8018A;
+    text-shadow:  #04a8ec70 0 5px 6px;
+}
+.about-info h1 {
+    font-size: 6.5em;
+    text-align: center;
+}
+.about-info p {
+    padding: 8% 8% 0 8%;
+    font-family: 'Montserrat-Light', sans-serif !important;
+    text-align: justify;
+}
+.about-info span {
+    color: #E8018A;
+    font-family: 'Montserrat-Bold', sans-serif !important;
+    font-size: 24px;
+    text-align: end;
+}
