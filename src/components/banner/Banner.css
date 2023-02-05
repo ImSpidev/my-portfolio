@@ -7,15 +7,26 @@
     background-repeat: no-repeat;
 }
 .banner .tagline {
-    width: 50%;
-    font-weight: 700;
-    letter-spacing: 0.8px;
-    padding: 8px 10px;
-    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    font-size: 20px;
-    margin-bottom: 16px;
-    display: inline-block;
+    width: calc(100% - 30px);
+    border: 30px solid #a70364;
+    border-left: 5px solid #a70364;
+    border-right: 5px solid #a70364;
+    border-bottom: 15px solid #a70364;
+    clip-path: polygon(
+        0px 25px,
+        26px 0px,
+        calc(60% - 25px) 0px,
+        60% 25px,
+        100% 25px,
+        100% calc(100% - 10px),
+        calc(100% - 15px) calc(100% - 10px),
+        calc(80% - 10px) calc(100% - 10px),
+        calc(80% - 15px) calc(100% - 0px),
+        10px calc(100% - 0px),
+        0% calc(100% - 10px)
+    );
+    margin-bottom: 10px;
+    padding: 12px;
 }
 .banner h1 {
     font-size: 94px;
@@ -67,6 +78,7 @@
 .name-info {
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
 }
 .name-info h1, h3 {
     font-family: 'Cyberwar-light', sans-serif !important;

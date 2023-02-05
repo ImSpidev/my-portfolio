@@ -11,7 +11,7 @@ export const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(100 - Math.random() * 500);
     const [index, setIndex] = useState(1);
-    const toRotate = ['Welcome Samurai! We have a program to code!', 'ようこそサムライ! プログラムをコーディングするんだ'];
+    const toRotate = ['Welcome Samurai! We have a program to Code!', 'ようこそサムライ! プログラムをコーディングするんだ'];
     const period = 2000;
 
     useEffect(() => {
