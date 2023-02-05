@@ -54,7 +54,6 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">{text}</span>
                         <div className='name-info'>
-                            {/*H1 with name, "Web developer" and glitching efect*/}
                             <h1 className="cyberpunk glitched">Charly</h1>
                             <h1 className="cyberpunk glitched">Arreola</h1>
                             <h3>Web Developer</h3>

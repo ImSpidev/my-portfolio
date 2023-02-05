@@ -45,7 +45,7 @@ export const NavBar = () => {
                     <div className="social-icon">
                         
                     </div>
-                    <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect!</span></button>
+                    <button className="cyberpunk-glitched" onClick={() => console.log('connect')}><span>Let's Connect!</span></button>
                 </span>
                 </Navbar.Collapse>
             </Container>
