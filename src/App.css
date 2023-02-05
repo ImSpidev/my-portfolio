@@ -1,6 +1,6 @@
 /*Custom Fonts*/
 @font-face {
-  font-family: Cyberwar;
+  font-family: Cyberwar-light;
   src: url(./assets/fonts/Cyberwar-regular.ttf);
   font-weight: 400;
 }
@@ -84,13 +84,6 @@ input:focus, textarea:focus, select:focus {
 	}
 }
 
-p.success {
-	color: green;
-}
-
-p.danger {
-	color: red;
-}
 
 
 

@@ -1,4 +1,5 @@
 nav.navbar {
+    background-color: #010112f7;
     padding: 18px 0;
     position: fixed;
     width: 100%;
@@ -12,6 +13,9 @@ nav.navbar.scrolled {
 }
 nav.navbar a.navbar-brand {
     width: 6%;
+}
+.navbar-brand img {
+    border-radius: 100%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
     font-family: 'Montserrat-Bold', sans-serif !important;
