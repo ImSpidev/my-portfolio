@@ -55,8 +55,8 @@ export const Banner = () => {
                         <span className="tagline">{text}</span>
                         <div className='name-info'>
                             {/*H1 with name, "Web developer" and glitching efect*/}
-                            <h1>Charly</h1>
-                            <h1>Arreola</h1>
+                            <h1 className="cyberpunk glitched">Charly</h1>
+                            <h1 className="cyberpunk glitched">Arreola</h1>
                             <h3>Web Developer</h3>
                         </div>
                     </Col>
