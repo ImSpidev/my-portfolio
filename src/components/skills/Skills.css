@@ -23,23 +23,7 @@
     font-family: 'Montserrat-Light', sans-serif !important;
     text-align: center;
 }
-.skill-slider {
-    width: 80%;
-    margin: 0 auto;
-    position: relative;
-}
-.skill-slider .item img {
-    width: 50%;
-    margin: 0 auto 15px auto;
-}
-.background-image-left {
-    top: 28%;
-    position: absolute;
-    bottom: 0;
-    width: 40%;
-    z-index: -4;
-}
-.skill-info {
+.skill-info, .other-skills-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,5 +31,54 @@
 .skill-container {
     display: flex;
 }
+.other-skills-container {
+    padding: 100px 0 68px 0;
+}
 
-
+.social-icons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-top: 54px;
+}
+.skills-icons {
+    margin: 0 20px 0 20px;
+    fill: none;
+    stroke-width: 0.5px;
+}
+.git-icon{
+    filter: drop-shadow(2px 4px 6px #F0502F);
+    stroke: #F0502F;
+}
+.figma-icon{
+    filter: drop-shadow(2px 4px 6px #B759FF);
+    stroke: #09CF81 ;
+}
+.mysql-icon{
+    filter: drop-shadow(2px 4px 6px #01618A);
+    stroke: #01618A;
+}
+.postman-icon{
+    filter: drop-shadow(2px 4px 6px #FD6C35);
+    stroke: #FD6C35;
+}
+.bootstrap-icon{
+    filter: drop-shadow(2px 4px 6px #890BFC);
+    stroke: #890BFC;
+}
+.react-native-icon{
+    filter: drop-shadow(2px 4px 6px #27D9FD);
+    stroke: #27D9FD;
+}
+.photoshop-icon{
+    filter: drop-shadow(2px 4px 6px #0362ae);
+    stroke: #0362ae;
+}
+.firebase-icon{
+    filter: drop-shadow(2px 4px 6px #F5820E);
+    stroke: #FFCA2B;
+}
+.gcp-icon{
+    filter: drop-shadow(2px 4px 6px #4384F4);
+    stroke: #EA4335;
+}

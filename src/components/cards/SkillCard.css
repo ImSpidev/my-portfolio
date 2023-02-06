@@ -37,6 +37,7 @@
 }
 
 .title {
+    letter-spacing: 1.5px;
     text-align: center;
     color: #fff;
     font-weight: 300;
