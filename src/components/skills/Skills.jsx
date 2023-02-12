@@ -1,7 +1,7 @@
-import {IconContext} from "react-icons";
 import { Container, Row, Col} from 'react-bootstrap';
 import { SkillCard } from '../cards/SkillCard';
 
+import { IconContext } from "react-icons";
 import { SiGit, SiFigma, SiMysql, SiBootstrap, SiPostman, SiReact, SiAdobephotoshop, SiFirebase, SiGooglecloud } from "react-icons/si";
 
 import htmlIcon from '../../assets/img/svg/html-5-icon.svg';
@@ -9,8 +9,6 @@ import cssIcon from '../../assets/img/svg/css-3-icon.svg';
 import jsIcon from '../../assets/img/svg/js-icon.svg';
 import phpIcon from '../../assets/img/svg/php-icon.svg';
 import reactIcon from '../../assets/img/svg/react-icon.svg';
-
-//import {ReactComponent as ReactIcon} from '../../assets/img/svg/react-icon.svg';
 
 import './Skills.css';
 
@@ -76,7 +74,7 @@ export const Skills = () => {
                                 }
                             </div>
                             <div className="other-skills-container">
-                                <h3 className="cyberpunk-text">Other Skills</h3>
+                                <h3 className="cyberpunk-text other-skills-title">Other Skills</h3>
                                 <div className="social-icons">
                                     <IconContext.Provider value={{size: 60}}>
                                         <SiGit className="git-icon skills-icons" title="Git"/>
