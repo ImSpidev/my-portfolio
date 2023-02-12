@@ -77,6 +77,14 @@ input:focus, textarea:focus, select:focus {
   outline: none;
 }
 
+.cyberpunk-text {
+  font-family: 'Cyberwar-light', sans-serif !important;
+  color: #E8018A;
+  text-shadow:  #04a8ec70 0 5px 6px;
+  font-size: 5.5em;
+  text-align: center;
+}
+
 @media (min-width:1700px) {
 	main .container {
 		max-width: 100%;
