@@ -11,7 +11,14 @@ export const About = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={5}>
                         <div className='about-image-container'>
-                            <img className="cyberpunk-image" width="600" height="300" src={aboutImg} alt="" />
+                            <div className="glitch">
+                                <img className='cyberpunk-image' width="600" height="300" src={aboutImg} alt="" />
+                                <div class="glitch-layers">
+                                    <div class="glitch-layer"></div>
+                                    <div class="glitch-layer"></div>
+                                    <div class="glitch-layer"></div>
+                                </div>
+                            </div>
                         </div>
                     </Col>
                     <Col xs={12} md={6} xl={7}>
