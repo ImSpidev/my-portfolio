@@ -81,8 +81,8 @@ span.navbar-text {
     display: block;
     border: none;
     border-radius: 0%;
-    font-size: 1.0rem;
-    line-height: 100%;
+    font-size: 0.8rem;
+    line-height: 80%;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: 600;
