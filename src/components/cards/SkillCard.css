@@ -13,8 +13,6 @@
     display: flex;
     height: 280px;
     width: 200px;
-    background-color: #E8018A;
-    box-shadow: #04a8ec70 3px 3px 15px;
     transition: 0.4s ease-out;
     position: relative;
     left: 0px;
