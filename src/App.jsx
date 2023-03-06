@@ -4,6 +4,7 @@ import { Banner } from './components/banner/Banner'
 import { About } from './components/about/About';
 import { Skills } from './components/skills/Skills';
 import { Projects } from './components/myProjects/Projects';
+import { Contact } from './components/contact/Contact';
 
 /*CSS Imports*/
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   )
 }
