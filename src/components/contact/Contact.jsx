@@ -5,7 +5,7 @@ import './Contact.css';
 
 export const Contact = () => {
     return (
-        <section className="contact">
+        <section className="contact" id="contact">
             <h1 className="cyberpunk-text">CONTACT</h1>
             <p className="contact-description">
                 Either you have an inquiry about a potential project, 
