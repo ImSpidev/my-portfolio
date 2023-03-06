@@ -7,7 +7,7 @@ export const ProjectCards = ({ id, src, title }) => {
         <>
             <div className={`div${id}`}>
                 <span></span>
-                <div className="cyber-tile-small fg-dark bg-cyberPink">
+                <div className="cyber-tile-small fg-dark bg-cyberPink zoom">
                     <img src={src} />
                     <label>{title}</label>
                 </div>
