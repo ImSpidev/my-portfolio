@@ -1,0 +1,59 @@
+.modal-content {
+    background-color: rgba(1, 1, 29, 0.9) !important;
+    border: 1px solid #B125AA !important;
+}
+.title-md{
+    font-size: 3.0em !important;
+}
+.no-shadow{
+    text-shadow: none  !important;
+}
+.btn-close {
+    color: #E8018A !important;
+}
+.modal-header {
+    border-bottom: none !important;
+    justify-content: center !important;
+}
+.modal-title {
+    font-family: 'Cyberwar-light', sans-serif !important;
+    color: #E8018A;
+    font-size: 2.5em !important;
+}
+.modal-body {
+    font-family: 'Montserrat-Medium', sans-serif !important;
+    color: aliceblue !important;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 3;
+}
+.modal-body img {
+    width: 72%;
+}
+.modal-body p {
+    margin-top: 20px;
+    white-space: pre-wrap;
+    text-align: center;
+}
+.modal-footer {
+    border-top: none !important;
+}
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 20px 0;
+    margin-top: 30px;
+}
+.link:hover svg.web {
+    color: #ffffff;
+}
+
+.link:hover svg.github {
+    color: #ffffff;
+}
+.link:nth-child(1)::before, .link:nth-child(2)::before {
+    background: #ffffff !important;
+}
