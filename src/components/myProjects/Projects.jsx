@@ -22,7 +22,7 @@ export const Projects = () => {
             description: "My biggest project to date is not my own project, but it is one that I have been working on since it started and it is where I am currently working.\n\n"+"It is an application focused on school's administration (from the administrative part as such, homework management, grading, etc.).\n\n"+
             "We have about 100 clients around Mexico and I'm in charge of developing new features, supporting existing ones and talking with clients to develop new ones.\n\n"+ 
             "It is developed with HTML, CSS, JS (Vanilla and JQuery), PHP and MySQL.\n\n"+ 
-            "For confidentiality and privacy reasons I can't put links to the repositories and/or the platform",
+            "Because confidentiality and privacy reasons I can't put links to the repositories and/or the platform",
             link: '#',
             repo:  '#'
 
@@ -42,7 +42,8 @@ export const Projects = () => {
             imgUrl: yomilunch,
             description: "It is currently the project I am working on within the company where I work.\n\n"+
             "It is a cafeteria manager (which will be connected to the main application 'School iBox'), which consists on a point of sale, sales record, product management, discounts, balances, etc...\n\n"+
-            "I'm developing this project completely on my own (without anyone helping me) and the technologies used for this are HTML, CSS, JS (Vanilla and JQuery), PHP and MySQL.",
+            "I'm developing this project completely on my own (without anyone helping me) and the technologies used for this are HTML, CSS, JS (Vanilla and JQuery), PHP and MySQL.\n\n"+ 
+            "Because confidentiality and privacy reasons I can't put links to the repositories and/or the platform",
             link: '#',
             repo:  '#'
         },

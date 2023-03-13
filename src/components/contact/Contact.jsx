@@ -17,6 +17,9 @@ export const Contact = () => {
                 spidev.cto@gmail.com || spidev.net
             </p>
             <div className="social-media-icons">
+                <a href="https://www.linkedin.com/in/charlyarreola/" target='_blank' className="link">
+                    <FaLinkedin className="linkedin"/>
+                </a>
                 <a href="https://www.instagram.com/im_spidev/" target='_blank' className="link">
                     <FaInstagram className="instagram"/>
                 </a>
@@ -25,9 +28,6 @@ export const Contact = () => {
                 </a>
                 <a href="https://api.whatsapp.com/send?phone=523313071987" target='_blank' className="link">
                     <FaWhatsapp className="whatsapp"/>
-                </a>
-                <a href="https://www.linkedin.com/in/charlyarreola/" target='_blank' className="link">
-                    <FaLinkedin className="linkedin"/>
                 </a>
             </div>
         </section>
