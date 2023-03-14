@@ -65,6 +65,7 @@ export const Skills = () => {
                                     skills.map((skill, index)=>{
                                         return(
                                             <SkillCard 
+                                                skilId = {index}
                                                 skillName={skill.name}
                                                 skillSvg={skill.svg}
                                                 skillClassName={skill.className}

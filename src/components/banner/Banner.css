@@ -219,7 +219,7 @@ h1.cyberpunk-text:after {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px ) {
+@media only screen and (max-width: 600px ) {
     .banner {
         margin-top: -22%;
         padding: 260px 0 60px 0;

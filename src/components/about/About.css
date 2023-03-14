@@ -183,12 +183,26 @@ div.about-image-container {
 		font-size: 5.5em;
 		text-align: end;
 	}
+	.about-info span {
+		padding: 3% 6% 0 6%;
+	}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px ) {
+@media only screen and (max-width: 600px ) {
+	.image-container {
+		display: flex;
+		justify-content: center;
+	}
+	.about-image-container {
+		width: 80%;
+		height: 50%;
+	}
 	.about-info h1 {
 		font-size: 5.5em;
 		text-align: end;
+	}
+	.about-info span {
+		padding: 3% 6% 0 6%;
 	}
 }

@@ -35,7 +35,7 @@
     transition: 0.4s ease-out;
 }
 
-.title {
+.skill-title {
     letter-spacing: 1.5px;
     text-align: center;
     color: #fff;
@@ -43,6 +43,16 @@
     position: absolute;
     left: 20px;
     top: 15px;
+}
+
+.skill-holder {
+    display: none;
+}
+.skill-image {
+    display: none;
+}
+.skill-text {
+    display: none;
 }
 
 .bar {
@@ -114,3 +124,117 @@
     filter: drop-shadow(2px 4px 6px #1c1537);
     transition: 0.6s ease-out;
 }
+
+
+/* Media queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .crd-container {
+        position: relative;
+        height: auto;
+        width: auto;
+        top: 10px;
+        justify-content: left;
+    }
+    .skill-card {
+        display: none;
+    }
+    .skill-holder {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        margin: .8rem 1rem 0.8rem;
+    }
+    .skill-image {
+        flex: 1;
+        display: flex;
+        align-self: center;
+        padding: .5rem 1rem .5rem .5rem;
+    }
+    .skill-image > img {
+        margin: auto;
+        max-height: 60px;
+        max-width: 80px;
+    }
+    .skill-name {
+        font-family: 'Montserrat-Medium', sans-serif !important;
+        font-size: 1.8em;
+        color: #E8018A;
+        margin-left: 28px;
+    }
+    .html-icon{
+        filter: drop-shadow(2px 4px 6px #c35501);
+    }
+    .css-icon{
+        filter: drop-shadow(2px 4px 6px #006bdd);
+    }
+    .js-icon{
+        filter: drop-shadow(2px 4px 6px #b49603);
+    }
+    .react-icon{
+        filter: drop-shadow(2px 4px 6px #005fb8);
+    }
+    .php-icon{
+        filter: drop-shadow(2px 4px 6px #1c1537);
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px ) {
+    .crd-container {
+        position: relative;
+        height: auto;
+        width: auto;
+        top: 10px;
+        justify-content: left;
+    }
+    .skill-card {
+        display: none;
+    }
+    .skill-holder {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        margin: .8rem 1rem 0.8rem;
+    }
+    .skill-image {
+        flex: 1;
+        display: flex;
+        align-self: center;
+        padding: .5rem 1rem .5rem .5rem;
+    }
+    .skill-image > img {
+        margin: auto;
+        max-height: 60px;
+        max-width: 80px;
+    }
+    .skill-name {
+        font-family: 'Montserrat-Medium', sans-serif !important;
+        color: #E8018A;
+        font-size: 1.8em;
+        margin-left: 28px;
+    }
+    .html-icon{
+        filter: drop-shadow(2px 4px 6px #c35501);
+    }
+    .css-icon{
+        filter: drop-shadow(2px 4px 6px #006bdd);
+    }
+    .js-icon{
+        filter: drop-shadow(2px 4px 6px #b49603);
+    }
+    .react-icon{
+        filter: drop-shadow(2px 4px 6px #005fb8);
+    }
+    .php-icon{
+        filter: drop-shadow(2px 4px 6px #1c1537);
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 

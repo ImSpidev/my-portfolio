@@ -31,6 +31,7 @@
     justify-content: center;
 }
 .other-skills-title {
+    text-align: center;
     font-size: 3.5em !important;
 }
 .skill-container {
@@ -87,3 +88,88 @@
     filter: drop-shadow(2px 4px 6px #4384F4);
     stroke: #EA4335;
 }
+
+/* Media queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .skill {
+        padding: 60px 0 40px 0;
+    }
+    .skill-box {
+        background: none;
+        padding: 34px 25px;
+    }
+    .skill-box h1 {
+        text-align: left;
+        padding: 3% 6% 0 6%;
+    }
+    .skill-box p {
+        text-align: justify;
+    }
+    .skill-container {
+        flex-direction: column;
+    }
+    .other-skills-container {
+        padding: 58px 0 68px 0;
+    }
+    .other-skills-container h3 {
+        text-align: left;
+        padding: 3% 6% 0 6%;
+    }
+    .other-skills-title {
+        font-size: 2.5em !important;
+    }
+    .social-icons {
+        display: block;
+    }
+    .skills-icons {
+        margin: 15px 20px 0 20px;
+        width: 70px;
+        height: 48px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px ) {
+    .skill {
+        padding: 60px 0 40px 0;
+    }
+    .skill-box {
+        background: none;
+        padding: 34px 25px;
+    }
+    .skill-box h1 {
+        text-align: left;
+        padding: 3% 6% 0 6%;
+    }
+    .skill-box p {
+        text-align: justify;
+    }
+    .skill-container {
+        flex-direction: column;
+    }
+    .other-skills-container {
+        padding: 58px 0 68px 0;
+    }
+    .other-skills-container h3 {
+        text-align: left;
+        padding: 3% 6% 0 6%;
+    }
+    .other-skills-title {
+        font-size: 2.5em !important;
+    }
+    .social-icons {
+        display: block;
+    }
+    .skills-icons {
+        margin: 15px 20px 0 20px;
+        width: 70px;
+        height: 48px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
