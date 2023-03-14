@@ -165,3 +165,30 @@ div.about-image-container {
 		opacity: 0;
 	}
 }
+
+
+/* Media queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.image-container {
+		display: flex;
+		justify-content: center;
+	}
+	.about-image-container {
+		width: 80%;
+		height: 50%;
+	}
+	.about-info h1 {
+		font-size: 5.5em;
+		text-align: end;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px ) {
+	.about-info h1 {
+		font-size: 5.5em;
+		text-align: end;
+	}
+}

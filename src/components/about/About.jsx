@@ -9,7 +9,7 @@ export const About = () => {
         <section className="about" id="about">
             <Container>
                 <Row className="align-items-center">
-                    <Col xs={12} md={6} xl={5}>
+                    <Col xs={12} md={6} xl={5} className="image-container">
                         <div className='about-image-container'>
                             <div className="glitch">
                                 <img className='cyberpunk-image' width="600" height="300" src={aboutImg} alt="" />

@@ -195,3 +195,50 @@ h1.cyberpunk-text:after {
         opacity: 0;
     }
 }
+
+
+
+/* Media queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .banner {
+        margin-top: -32%;
+        padding: 260px 0 60px 0;
+    }
+    .name-info h1 {
+        font-size: 6em;
+    }
+    .tagline {
+        display: inline-block;
+        width: calc(100% - 20px);
+    }
+    .d-model-container {
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px ) {
+    .banner {
+        margin-top: -22%;
+        padding: 260px 0 60px 0;
+    }
+    .name-info h1 {
+        font-size: 6em;
+    }
+    .tagline {
+        display: inline-block;
+        width: calc(100% - 20px);
+    }
+    .d-model-container {
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .name-info h1 {
+        font-size: 6em;
+    }
+} 

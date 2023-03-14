@@ -59,7 +59,7 @@ export const Banner = () => {
                             <h3>Web Developer</h3>
                         </div>
                     </Col>
-                    <Col xs={12} md={6} xl={5}>
+                    <Col xs={12} md={6} xl={5} className="d-model-container">
                         {/*Spline title*/}
                         <Spline scene="https://prod.spline.design/4pwwsP1LUs7kWexb/scene.splinecode" />
                     </Col>
