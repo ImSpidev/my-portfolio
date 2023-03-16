@@ -22,10 +22,10 @@ export const MyVerticallyCenteredModal = (props) => {
                 {props.description}
             </p>
             <div className="social-media-icons">
-                <a href={props.link} target='_blank' className="link-modal">
+                <a href={props.link} target='_blank' className="link link-modal">
                     <FaImage className="web"/>
                 </a>
-                <a href={props.repo} target='_blank' className="link-modal">
+                <a href={props.repo} target='_blank' className="link link-modal">
                     <FaGithub className="github"/>
                 </a>
             </div>
