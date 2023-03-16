@@ -80,7 +80,7 @@ export const Projects = () => {
             <Container>
                 <Row>
                     <Col>
-                        <h1 className="cyberpunk-text">PROJECTS</h1>
+                        <h1 className="cyberpunk-text projects-title">PROJECTS</h1>
                         <p className="projects-description">
                             Here are some of the proyects that I've done along my carrer, you can check the demo or check the code in Github
                         </p>
