@@ -321,3 +321,50 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         right: 35px;
     }
 }
+
+
+/* Media queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) { 
+    nav.navbar {
+        height: 70px;
+    }
+    .navbar-collapse {
+        background-color: #010112 !important;
+    }
+    .navbar-toggler {
+        background-color: #E8018A !important;
+    }
+    .navbar-toggler svg {
+        color: #ffffff;;
+    }
+    nav.navbar a.navbar-brand {
+        width: 13%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px ) { 
+    nav.navbar {
+        height: 70px;
+    }
+    .navbar-collapse {
+        background-color: #010112 !important;
+    }
+    .navbar-toggler {
+        background-color: #E8018A !important;
+    }
+    .navbar-toggler svg {
+        color: #ffffff;;
+    }
+    nav.navbar a.navbar-brand {
+        width: 13%;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 

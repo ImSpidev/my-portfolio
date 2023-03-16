@@ -2,10 +2,10 @@ import { useState, useEffect} from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import profileLogo from "../../assets/img/profile-logo.jpg";
 
+import { FaBars } from "react-icons/fa";
+
 import "./NavBar.css";
 
-
-/* Todo: Create icons component based on icons of IG */
 
 export const NavBar = () => {
 
@@ -26,21 +26,21 @@ export const NavBar = () => {
     }
 
     return (
-        <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+        <Navbar collapseOnSelect expand="lg" className={scrolled ? "scrolled" : ""}>
             <Container>
                 <Navbar.Brand href="#home">
                     <img src={profileLogo} alt="Logo" />
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav">
-                    <span className="navbar-toggle-icon"></span>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" data-bs-toggle="collapse" data-bs-target="#basic-navbar-nav">
+                    <FaBars />
                 </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
-                    <Nav.Link href="#home"  className={activeLink === 'home' ? "active navbar-link" : "navbar-link"} onClick={()=>onUpdateActiveLink('home')}>Home</Nav.Link>
-                    <Nav.Link href="#about" className={activeLink === 'about' ? "active navbar-link" : "navbar-link"} onClick={()=>onUpdateActiveLink('about')}>About</Nav.Link>
-                    <Nav.Link href="#skills" className={activeLink === 'skills' ? "active navbar-link" : "navbar-link"} onClick={()=>onUpdateActiveLink('skills')}>Skills</Nav.Link>
-                    <Nav.Link href="#projects" className={activeLink === 'projects' ? "active navbar-link" : "navbar-link"} onClick={()=>onUpdateActiveLink('projects')}>Projects</Nav.Link>
-                    <Nav.Link href="#contact" className={activeLink === 'contact' ? "active navbar-link" : "navbar-link"} onClick={()=>onUpdateActiveLink('contact')}>Contact</Nav.Link>
+                    <Nav.Link href="#home" eventKey="1"  className={activeLink === 'home' ? "active navbar-link" : "navbar-link"} onClick={()=>onUpdateActiveLink('home')}>Home</Nav.Link>
+                    <Nav.Link href="#about" eventKey="2" className={activeLink === 'about' ? "active navbar-link" : "navbar-link"} onClick={()=>onUpdateActiveLink('about')}>About</Nav.Link>
+                    <Nav.Link href="#skills" eventKey="3" className={activeLink === 'skills' ? "active navbar-link" : "navbar-link"} onClick={()=>onUpdateActiveLink('skills')}>Skills</Nav.Link>
+                    <Nav.Link href="#projects" eventKey="4" className={activeLink === 'projects' ? "active navbar-link" : "navbar-link"} onClick={()=>onUpdateActiveLink('projects')}>Projects</Nav.Link>
+                    <Nav.Link href="#contact" eventKey="5" className={activeLink === 'contact' ? "active navbar-link" : "navbar-link"} onClick={()=>onUpdateActiveLink('contact')}>Contact</Nav.Link>
                 </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
