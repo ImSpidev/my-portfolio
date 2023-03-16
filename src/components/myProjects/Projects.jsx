@@ -1,12 +1,11 @@
 import { Container, Row, Col} from 'react-bootstrap';
 import { ProjectCards } from '../cards/ProjectsCards';
-import aboutImg from '../../assets/img/about-img.jpg';
 
 import schooliBox from '../../assets/img/myProjects/schooliBox.png';
 import houseFlipper from '../../assets/img/myProjects/houseFlipper.png';
 import yomilunch from '../../assets/img/myProjects/yomilunch.png';
 import schooliBoxLp from '../../assets/img/myProjects/schooliBoxLp.png';
-//import myPortfolio from '../../assets/img/myProjects/myPortfolio.png';
+import myPortfolio from '../../assets/img/myProjects/myPortfolio.png';
 import todoList from '../../assets/img/myProjects/todoList.png';
 
 
@@ -57,7 +56,7 @@ export const Projects = () => {
         },
         {
             title: 'My Portfolio (Landing Page)',
-            imgUrl: aboutImg,
+            imgUrl: myPortfolio,
             description: "The page where you are currently located, my personal brand and my little piece on the Web.\n\n"+
             "I was inspired by a 'Cyberpunk' or 'Retro Futuristic' design as I love those styles.\n\n"+
             "I made it completely in React",
