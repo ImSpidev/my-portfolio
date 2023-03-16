@@ -5,6 +5,7 @@
 .contact-description, .contact-references{
     margin-top: 10px;
     text-align: center;
+    padding: 10px !important;
 }
 .contact-references {
     padding: 10px 0 10px 0;
@@ -82,9 +83,8 @@
     transition: all 0.4s;
 }
 
-.link:hover svg {
-    color: #c8c8c8;
-    transform: rotate(-45deg);
+.link:hover svg.linkedin {
+    color: #0a66ca;
 }
 
 .link:hover svg.instagram {
@@ -99,6 +99,7 @@
     color: #25d366;
 }
 
-.link:hover svg.linkedin {
-    color: #0a66ca;
+.link:hover svg {
+    color: #c8c8c8;
+    transform: rotate(-45deg);
 }

@@ -54,6 +54,6 @@
 .link:hover svg.github {
     color: #ffffff;
 }
-.link:nth-child(1)::before, .link:nth-child(2)::before {
+.link-modal:nth-child(1)::before, .link-modal:nth-child(2)::before {
     background: #ffffff !important;
 }
