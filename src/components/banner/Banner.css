@@ -216,6 +216,12 @@ h1.cyberpunk-text:after {
     .d-model-container {
         display: none;
     }
+    h1.cyberpunk-text.glitched {
+        animation-name: h1glitched;
+        animation-duration: calc(0.9s * 1.4);
+        animation-iteration-count: unset;
+        animation-timing-function: linear;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -233,6 +239,12 @@ h1.cyberpunk-text:after {
     }
     .d-model-container {
         display: none;
+    }
+    h1.cyberpunk-text.glitched {
+        animation-name: h1glitched;
+        animation-duration: calc(0.9s * 1.4);
+        animation-iteration-count: unset;
+        animation-timing-function: linear;
     }
 }
 
