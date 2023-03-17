@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Container, Row, Col} from 'react-bootstrap';
-import Spline from '@splinetool/react-spline';
+import bannerImg from '../../assets/img/gifs/banner-cyberpunk-left.gif';
 
 
 import './Banner.css';
@@ -60,8 +60,12 @@ export const Banner = () => {
                         </div>
                     </Col>
                     <Col xs={12} md={6} xl={5} className="d-model-container">
-                        {/*Spline title*/}
-                        <Spline scene="https://prod.spline.design/4pwwsP1LUs7kWexb/scene.splinecode" />
+                        <div className="image-wrapper">
+                            <img className="image-1" src={bannerImg} alt="" />
+                            <img className="image-2" src={bannerImg} alt="" />
+                            <img className="image-3" src={bannerImg} alt="" />
+                            <img className="image-4" src={bannerImg} alt="" />
+                        </div>
                     </Col>
                 </Row>
             </Container>
