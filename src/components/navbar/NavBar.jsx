@@ -43,9 +43,6 @@ export const NavBar = () => {
                     <Nav.Link href="#contact" eventKey="5" className={activeLink === 'contact' ? "active navbar-link" : "navbar-link"} onClick={()=>onUpdateActiveLink('contact')}>Contact</Nav.Link>
                 </Nav>
                 <span className="navbar-text">
-                    <div className="social-icon">
-                        
-                    </div>
                     <button className="cyberpunk-glitched" onClick={() => window.location = 'mailto:spidev.cto@gmail.com'}><span>Let's Connect!</span></button>
                 </span>
                 </Navbar.Collapse>

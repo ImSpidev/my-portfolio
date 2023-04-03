@@ -99,6 +99,10 @@ export const Projects = () => {
                                 })
                             }
                         </div>
+                        <div className="resume-container">
+                            <p className="resume-description">You can view & download my resume here:</p>
+                            <button className="cyberpunk-btn" onClick={() =>  window.open('https://docdro.id/CTWxFri', '_blank')}><span>Resume</span></button>
+                        </div>
                     </Col>
                 </Row>
             </Container>
